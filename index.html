@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Criptor</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.jpg" alt="">
+        <h1>Criptor Alura </h1>
+    </header>
+    <main>
+            <section class="izquierda">
+                <h2>Ingrese un texto</h2>
+                <textarea name="texto" id="input" class="inputBox" cols="25" rows="8"></textarea>
+                <img src="img/Frame 1.png" alt="" class="avisoMay">
+                <div class="contBotones">
+                    <button id="encriptar" class="btnEnc">Encriptar</button>
+                    <button id="desencriptar" class="btnDes">Desencriptar</button>
+                </div>
+            </section>
+            <section class="derecha" id="resultado">
+                <img src="img/Muñeco.png" alt="" id="img">
+
+                <div class="sectorDerecho">
+                    <h3 id="noTexto">Ningun texto encontrado</h3>
+                    <p id="aviso">Ingrese el texto que desee encriptar o desencriptar</p>
+                    <textarea name="textofinal" id="textoFinal" class="hide" cols="30" rows="10"></textarea>
+                    </div>
+                <div id="btnCopiar" class="hide">
+                    <button id="copy">Copiar</button>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy Lisandro Civili | Alura Latam </p>
+    </footer>
+    <script src="js/encriptar.js"></script>
+    <script src="js/desencriptar.js"></script>
+    <script src="js/challenge.js"></script>
+    <script src="js/copiar.js"></script>
+</body>
+</html>
